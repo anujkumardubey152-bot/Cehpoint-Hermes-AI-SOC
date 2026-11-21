@@ -1,0 +1,12 @@
+{
+    "198.51.100.42": {
+        "ip": "198.51.100.42",
+        "reputation": "unknown",
+        "malicious": null,
+        "confidence": "not_assessed",
+        "country": null,
+        "provider": "LOCAL_SYNTHETIC_MOCK",
+        "source_type": "mock",
+        "note": "No real-world reputation assessment is available."
+    }
+}

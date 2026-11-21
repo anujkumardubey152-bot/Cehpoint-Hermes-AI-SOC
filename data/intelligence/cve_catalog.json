@@ -1,0 +1,13 @@
+[
+    {
+        "cve_id": "SYNTHETIC-CVE-0001",
+        "product": "ExampleServer",
+        "affected_versions": [
+            "1.0",
+            "1.1"
+        ],
+        "severity": "HIGH",
+        "description": "Synthetic example vulnerability record.",
+        "source_type": "mock"
+    }
+]

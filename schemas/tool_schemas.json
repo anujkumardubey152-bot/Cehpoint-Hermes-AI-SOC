@@ -1,0 +1,64 @@
+{
+    "tools": [
+        {
+            "name": "search_logs",
+            "description": "Search local authentication logs by account and optional filters.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "account": {
+                        "type": "string"
+                    },
+                    "source_ip": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "event_type": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    }
+                },
+                "required": [
+                    "account"
+                ],
+                "additionalProperties": false
+            }
+        },
+        {
+            "name": "lookup_ip",
+            "description": "Look up an IP in the local mock intelligence catalogue.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "ip": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "ip"
+                ],
+                "additionalProperties": false
+            }
+        },
+        {
+            "name": "search_cve",
+            "description": "Search the local mock CVE catalogue by product name.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "product": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "product"
+                ],
+                "additionalProperties": false
+            }
+        }
+    ]
+}

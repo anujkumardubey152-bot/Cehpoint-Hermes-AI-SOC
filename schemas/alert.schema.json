@@ -1,0 +1,56 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Cehpoint SOC Security Alert",
+    "type": "object",
+    "required": [
+        "alert_id",
+        "alert_type",
+        "timestamp",
+        "account",
+        "source_ip",
+        "asset",
+        "failed_login_count",
+        "successful_login",
+        "source"
+    ],
+    "properties": {
+        "alert_id": {
+            "type": "string",
+            "minLength": 1
+        },
+        "alert_type": {
+            "type": "string",
+            "enum": [
+                "possible_account_compromise"
+            ]
+        },
+        "timestamp": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "account": {
+            "type": "string",
+            "minLength": 1
+        },
+        "source_ip": {
+            "type": "string",
+            "minLength": 1
+        },
+        "asset": {
+            "type": "string",
+            "minLength": 1
+        },
+        "failed_login_count": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "successful_login": {
+            "type": "boolean"
+        },
+        "source": {
+            "type": "string",
+            "minLength": 1
+        }
+    },
+    "additionalProperties": false
+}

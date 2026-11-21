@@ -1,0 +1,1129 @@
+{
+  "incident_id": "INC-C454818E15",
+  "status": "UNDER_INVESTIGATION",
+  "generated_at": "2026-11-21T05:17:32.391584+00:00",
+  "severity": "High",
+  "severity_reason": "50 failed login events and at least one successful login were found for the account.",
+  "confidence": "High",
+  "confidence_reason": "The login sequence is supported by matching account events and a related host event in the supplied dataset.",
+  "affected_entities": {
+    "account": "analyst.user",
+    "asset": "WORKSTATION-042",
+    "source_ip": "198.51.100.42"
+  },
+  "timeline": [
+    {
+      "timestamp": "2026-11-21T09:00:00+00:00",
+      "event_id": "AUTH-001",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 1
+    },
+    {
+      "timestamp": "2026-11-21T09:00:30+00:00",
+      "event_id": "AUTH-002",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 2
+    },
+    {
+      "timestamp": "2026-11-21T09:01:00+00:00",
+      "event_id": "AUTH-003",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 3
+    },
+    {
+      "timestamp": "2026-11-21T09:01:30+00:00",
+      "event_id": "AUTH-004",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 4
+    },
+    {
+      "timestamp": "2026-11-21T09:02:00+00:00",
+      "event_id": "AUTH-005",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 5
+    },
+    {
+      "timestamp": "2026-11-21T09:02:30+00:00",
+      "event_id": "AUTH-006",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 6
+    },
+    {
+      "timestamp": "2026-11-21T09:03:00+00:00",
+      "event_id": "AUTH-007",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 7
+    },
+    {
+      "timestamp": "2026-11-21T09:03:30+00:00",
+      "event_id": "AUTH-008",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 8
+    },
+    {
+      "timestamp": "2026-11-21T09:04:00+00:00",
+      "event_id": "AUTH-009",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 9
+    },
+    {
+      "timestamp": "2026-11-21T09:04:30+00:00",
+      "event_id": "AUTH-010",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 10
+    },
+    {
+      "timestamp": "2026-11-21T09:05:00+00:00",
+      "event_id": "AUTH-011",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 11
+    },
+    {
+      "timestamp": "2026-11-21T09:05:30+00:00",
+      "event_id": "AUTH-012",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 12
+    },
+    {
+      "timestamp": "2026-11-21T09:06:00+00:00",
+      "event_id": "AUTH-013",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 13
+    },
+    {
+      "timestamp": "2026-11-21T09:06:30+00:00",
+      "event_id": "AUTH-014",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 14
+    },
+    {
+      "timestamp": "2026-11-21T09:07:00+00:00",
+      "event_id": "AUTH-015",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 15
+    },
+    {
+      "timestamp": "2026-11-21T09:07:30+00:00",
+      "event_id": "AUTH-016",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 16
+    },
+    {
+      "timestamp": "2026-11-21T09:08:00+00:00",
+      "event_id": "AUTH-017",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 17
+    },
+    {
+      "timestamp": "2026-11-21T09:08:30+00:00",
+      "event_id": "AUTH-018",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 18
+    },
+    {
+      "timestamp": "2026-11-21T09:09:00+00:00",
+      "event_id": "AUTH-019",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 19
+    },
+    {
+      "timestamp": "2026-11-21T09:09:30+00:00",
+      "event_id": "AUTH-020",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 20
+    },
+    {
+      "timestamp": "2026-11-21T09:10:00+00:00",
+      "event_id": "AUTH-021",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 21
+    },
+    {
+      "timestamp": "2026-11-21T09:10:30+00:00",
+      "event_id": "AUTH-022",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 22
+    },
+    {
+      "timestamp": "2026-11-21T09:11:00+00:00",
+      "event_id": "AUTH-023",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 23
+    },
+    {
+      "timestamp": "2026-11-21T09:11:30+00:00",
+      "event_id": "AUTH-024",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 24
+    },
+    {
+      "timestamp": "2026-11-21T09:12:00+00:00",
+      "event_id": "AUTH-025",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 25
+    },
+    {
+      "timestamp": "2026-11-21T09:12:30+00:00",
+      "event_id": "AUTH-026",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 26
+    },
+    {
+      "timestamp": "2026-11-21T09:13:00+00:00",
+      "event_id": "AUTH-027",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 27
+    },
+    {
+      "timestamp": "2026-11-21T09:13:30+00:00",
+      "event_id": "AUTH-028",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 28
+    },
+    {
+      "timestamp": "2026-11-21T09:14:00+00:00",
+      "event_id": "AUTH-029",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 29
+    },
+    {
+      "timestamp": "2026-11-21T09:14:30+00:00",
+      "event_id": "AUTH-030",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 30
+    },
+    {
+      "timestamp": "2026-11-21T09:15:00+00:00",
+      "event_id": "AUTH-031",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 31
+    },
+    {
+      "timestamp": "2026-11-21T09:15:30+00:00",
+      "event_id": "AUTH-032",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 32
+    },
+    {
+      "timestamp": "2026-11-21T09:16:00+00:00",
+      "event_id": "AUTH-033",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 33
+    },
+    {
+      "timestamp": "2026-11-21T09:16:30+00:00",
+      "event_id": "AUTH-034",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 34
+    },
+    {
+      "timestamp": "2026-11-21T09:17:00+00:00",
+      "event_id": "AUTH-035",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 35
+    },
+    {
+      "timestamp": "2026-11-21T09:17:30+00:00",
+      "event_id": "AUTH-036",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 36
+    },
+    {
+      "timestamp": "2026-11-21T09:18:00+00:00",
+      "event_id": "AUTH-037",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 37
+    },
+    {
+      "timestamp": "2026-11-21T09:18:30+00:00",
+      "event_id": "AUTH-038",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 38
+    },
+    {
+      "timestamp": "2026-11-21T09:19:00+00:00",
+      "event_id": "AUTH-039",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 39
+    },
+    {
+      "timestamp": "2026-11-21T09:19:30+00:00",
+      "event_id": "AUTH-040",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 40
+    },
+    {
+      "timestamp": "2026-11-21T09:20:00+00:00",
+      "event_id": "AUTH-041",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 41
+    },
+    {
+      "timestamp": "2026-11-21T09:20:30+00:00",
+      "event_id": "AUTH-042",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 42
+    },
+    {
+      "timestamp": "2026-11-21T09:21:00+00:00",
+      "event_id": "AUTH-043",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 43
+    },
+    {
+      "timestamp": "2026-11-21T09:21:30+00:00",
+      "event_id": "AUTH-044",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 44
+    },
+    {
+      "timestamp": "2026-11-21T09:22:00+00:00",
+      "event_id": "AUTH-045",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 45
+    },
+    {
+      "timestamp": "2026-11-21T09:22:30+00:00",
+      "event_id": "AUTH-046",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 46
+    },
+    {
+      "timestamp": "2026-11-21T09:23:00+00:00",
+      "event_id": "AUTH-047",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 47
+    },
+    {
+      "timestamp": "2026-11-21T09:23:30+00:00",
+      "event_id": "AUTH-048",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 48
+    },
+    {
+      "timestamp": "2026-11-21T09:24:00+00:00",
+      "event_id": "AUTH-049",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 49
+    },
+    {
+      "timestamp": "2026-11-21T09:24:30+00:00",
+      "event_id": "AUTH-050",
+      "event_type": "login_failed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 50
+    },
+    {
+      "timestamp": "2026-11-21T09:26:00+00:00",
+      "event_id": "AUTH-051",
+      "event_type": "login_success",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 51
+    },
+    {
+      "timestamp": "2026-11-21T09:27:00+00:00",
+      "event_id": "HOST-001",
+      "event_type": "host_login_observed",
+      "account": "analyst.user",
+      "source_ip": "198.51.100.42",
+      "asset": "WORKSTATION-042",
+      "evidence_reference": 52
+    }
+  ],
+  "tool_results": {
+    "search_logs": {
+      "success": true,
+      "tool": "search_logs",
+      "count": 52,
+      "evidence": [
+        {
+          "event_id": "AUTH-001",
+          "timestamp": "2026-11-21T09:00:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 1
+        },
+        {
+          "event_id": "AUTH-002",
+          "timestamp": "2026-11-21T09:00:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 2
+        },
+        {
+          "event_id": "AUTH-003",
+          "timestamp": "2026-11-21T09:01:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 3
+        },
+        {
+          "event_id": "AUTH-004",
+          "timestamp": "2026-11-21T09:01:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 4
+        },
+        {
+          "event_id": "AUTH-005",
+          "timestamp": "2026-11-21T09:02:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 5
+        },
+        {
+          "event_id": "AUTH-006",
+          "timestamp": "2026-11-21T09:02:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 6
+        },
+        {
+          "event_id": "AUTH-007",
+          "timestamp": "2026-11-21T09:03:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 7
+        },
+        {
+          "event_id": "AUTH-008",
+          "timestamp": "2026-11-21T09:03:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 8
+        },
+        {
+          "event_id": "AUTH-009",
+          "timestamp": "2026-11-21T09:04:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 9
+        },
+        {
+          "event_id": "AUTH-010",
+          "timestamp": "2026-11-21T09:04:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 10
+        },
+        {
+          "event_id": "AUTH-011",
+          "timestamp": "2026-11-21T09:05:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 11
+        },
+        {
+          "event_id": "AUTH-012",
+          "timestamp": "2026-11-21T09:05:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 12
+        },
+        {
+          "event_id": "AUTH-013",
+          "timestamp": "2026-11-21T09:06:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 13
+        },
+        {
+          "event_id": "AUTH-014",
+          "timestamp": "2026-11-21T09:06:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 14
+        },
+        {
+          "event_id": "AUTH-015",
+          "timestamp": "2026-11-21T09:07:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 15
+        },
+        {
+          "event_id": "AUTH-016",
+          "timestamp": "2026-11-21T09:07:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 16
+        },
+        {
+          "event_id": "AUTH-017",
+          "timestamp": "2026-11-21T09:08:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 17
+        },
+        {
+          "event_id": "AUTH-018",
+          "timestamp": "2026-11-21T09:08:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 18
+        },
+        {
+          "event_id": "AUTH-019",
+          "timestamp": "2026-11-21T09:09:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 19
+        },
+        {
+          "event_id": "AUTH-020",
+          "timestamp": "2026-11-21T09:09:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 20
+        },
+        {
+          "event_id": "AUTH-021",
+          "timestamp": "2026-11-21T09:10:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 21
+        },
+        {
+          "event_id": "AUTH-022",
+          "timestamp": "2026-11-21T09:10:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 22
+        },
+        {
+          "event_id": "AUTH-023",
+          "timestamp": "2026-11-21T09:11:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 23
+        },
+        {
+          "event_id": "AUTH-024",
+          "timestamp": "2026-11-21T09:11:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 24
+        },
+        {
+          "event_id": "AUTH-025",
+          "timestamp": "2026-11-21T09:12:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 25
+        },
+        {
+          "event_id": "AUTH-026",
+          "timestamp": "2026-11-21T09:12:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 26
+        },
+        {
+          "event_id": "AUTH-027",
+          "timestamp": "2026-11-21T09:13:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 27
+        },
+        {
+          "event_id": "AUTH-028",
+          "timestamp": "2026-11-21T09:13:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 28
+        },
+        {
+          "event_id": "AUTH-029",
+          "timestamp": "2026-11-21T09:14:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 29
+        },
+        {
+          "event_id": "AUTH-030",
+          "timestamp": "2026-11-21T09:14:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 30
+        },
+        {
+          "event_id": "AUTH-031",
+          "timestamp": "2026-11-21T09:15:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 31
+        },
+        {
+          "event_id": "AUTH-032",
+          "timestamp": "2026-11-21T09:15:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 32
+        },
+        {
+          "event_id": "AUTH-033",
+          "timestamp": "2026-11-21T09:16:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 33
+        },
+        {
+          "event_id": "AUTH-034",
+          "timestamp": "2026-11-21T09:16:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 34
+        },
+        {
+          "event_id": "AUTH-035",
+          "timestamp": "2026-11-21T09:17:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 35
+        },
+        {
+          "event_id": "AUTH-036",
+          "timestamp": "2026-11-21T09:17:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 36
+        },
+        {
+          "event_id": "AUTH-037",
+          "timestamp": "2026-11-21T09:18:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 37
+        },
+        {
+          "event_id": "AUTH-038",
+          "timestamp": "2026-11-21T09:18:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 38
+        },
+        {
+          "event_id": "AUTH-039",
+          "timestamp": "2026-11-21T09:19:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 39
+        },
+        {
+          "event_id": "AUTH-040",
+          "timestamp": "2026-11-21T09:19:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 40
+        },
+        {
+          "event_id": "AUTH-041",
+          "timestamp": "2026-11-21T09:20:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 41
+        },
+        {
+          "event_id": "AUTH-042",
+          "timestamp": "2026-11-21T09:20:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 42
+        },
+        {
+          "event_id": "AUTH-043",
+          "timestamp": "2026-11-21T09:21:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 43
+        },
+        {
+          "event_id": "AUTH-044",
+          "timestamp": "2026-11-21T09:21:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 44
+        },
+        {
+          "event_id": "AUTH-045",
+          "timestamp": "2026-11-21T09:22:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 45
+        },
+        {
+          "event_id": "AUTH-046",
+          "timestamp": "2026-11-21T09:22:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 46
+        },
+        {
+          "event_id": "AUTH-047",
+          "timestamp": "2026-11-21T09:23:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 47
+        },
+        {
+          "event_id": "AUTH-048",
+          "timestamp": "2026-11-21T09:23:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 48
+        },
+        {
+          "event_id": "AUTH-049",
+          "timestamp": "2026-11-21T09:24:00+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 49
+        },
+        {
+          "event_id": "AUTH-050",
+          "timestamp": "2026-11-21T09:24:30+00:00",
+          "event_type": "login_failed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "failure",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 50
+        },
+        {
+          "event_id": "AUTH-051",
+          "timestamp": "2026-11-21T09:26:00+00:00",
+          "event_type": "login_success",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "success",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 51
+        },
+        {
+          "event_id": "HOST-001",
+          "timestamp": "2026-11-21T09:27:00+00:00",
+          "event_type": "host_login_observed",
+          "account": "analyst.user",
+          "source_ip": "198.51.100.42",
+          "asset": "WORKSTATION-042",
+          "result": "observed",
+          "source": "synthetic_lab_dataset",
+          "_source_line": 52
+        }
+      ],
+      "source_type": "synthetic_local_dataset",
+      "message": "Records found."
+    },
+    "lookup_ip": {
+      "success": true,
+      "tool": "lookup_ip",
+      "result": {
+        "ip": "198.51.100.42",
+        "reputation": "unknown",
+        "malicious": null,
+        "confidence": "not_assessed",
+        "country": null,
+        "provider": "LOCAL_SYNTHETIC_MOCK",
+        "source_type": "mock",
+        "note": "No real-world reputation assessment is available."
+      },
+      "source_type": "local_mock_intelligence",
+      "live_lookup_performed": false
+    },
+    "search_cve": {
+      "success": true,
+      "status": "NOT_RUN",
+      "reason": "No affected software product was supplied. A workstation name is not sufficient evidence for a CVE search.",
+      "matches": []
+    }
+  },
+  "assessment": {
+    "severity": "High",
+    "severity_reason": "50 failed login events and at least one successful login were found for the account.",
+    "confidence": "High",
+    "confidence_reason": "The login sequence is supported by matching account events and a related host event in the supplied dataset.",
+    "ip_lookup_result": {
+      "ip": "198.51.100.42",
+      "reputation": "unknown",
+      "malicious": null,
+      "confidence": "not_assessed",
+      "country": null,
+      "provider": "LOCAL_SYNTHETIC_MOCK",
+      "source_type": "mock",
+      "note": "No real-world reputation assessment is available."
+    },
+    "conclusion": "The supplied log dataset supports suspicious account login activity. This prototype cannot establish the real-world identity or intent of the source IP from the local mock lookup."
+  },
+  "evidence_gaps": [
+    "The IP lookup uses local mock intelligence only; it is not a live reputation assessment."
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "action": "Ask the account owner to confirm whether the successful login was expected.",
+      "expected_impact": "Helps distinguish legitimate activity from possible account compromise.",
+      "approval_required": false
+    },
+    {
+      "priority": 2,
+      "action": "Review the account's recent authentication and host activity.",
+      "expected_impact": "May identify additional suspicious activity not present in this sample.",
+      "approval_required": false
+    },
+    {
+      "priority": 3,
+      "action": "Consider a password reset and session revocation if compromise is confirmed.",
+      "expected_impact": "Can reduce continued unauthorized account access.",
+      "approval_required": true
+    }
+  ]
+}

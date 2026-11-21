@@ -1,0 +1,122 @@
+[
+  {
+    "file": "README.md",
+    "exists": true,
+    "size_bytes": 6023
+  },
+  {
+    "file": "src/soc/agent/planner.py",
+    "exists": true,
+    "size_bytes": 1
+  },
+  {
+    "file": "src/soc/agent/entrypoint.py",
+    "exists": true,
+    "size_bytes": 1
+  },
+  {
+    "file": "src/soc/agent/hermes_adapter.py",
+    "exists": true,
+    "size_bytes": 2312
+  },
+  {
+    "file": "src/soc/tools/common.py",
+    "exists": true,
+    "size_bytes": 1091
+  },
+  {
+    "file": "src/soc/tools/registry.py",
+    "exists": true,
+    "size_bytes": 6849
+  },
+  {
+    "file": "src/soc/tools/search_logs.py",
+    "exists": true,
+    "size_bytes": 2331
+  },
+  {
+    "file": "src/soc/tools/lookup_ip.py",
+    "exists": true,
+    "size_bytes": 1477
+  },
+  {
+    "file": "src/soc/tools/search_cve.py",
+    "exists": true,
+    "size_bytes": 1615
+  },
+  {
+    "file": "src/soc/investigation/engine.py",
+    "exists": true,
+    "size_bytes": 7961
+  },
+  {
+    "file": "src/soc/reporting/generator.py",
+    "exists": true,
+    "size_bytes": 4188
+  },
+  {
+    "file": "src/soc/audit/history.py",
+    "exists": true,
+    "size_bytes": 1318
+  },
+  {
+    "file": "src/soc/safety/approval.py",
+    "exists": true,
+    "size_bytes": 2623
+  },
+  {
+    "file": "schemas/alert.schema.json",
+    "exists": true,
+    "size_bytes": 1272
+  },
+  {
+    "file": "schemas/tool_schemas.json",
+    "exists": true,
+    "size_bytes": 1870
+  },
+  {
+    "file": "data/alerts/account_compromise.json",
+    "exists": true,
+    "size_bytes": 320
+  },
+  {
+    "file": "data/logs/authentication.jsonl",
+    "exists": true,
+    "size_bytes": 12385
+  },
+  {
+    "file": "tests/test_investigation.py",
+    "exists": true,
+    "size_bytes": 2807
+  },
+  {
+    "file": "tests/test_tools.py",
+    "exists": true,
+    "size_bytes": 1863
+  },
+  {
+    "file": "docs/hermes_integration_status.md",
+    "exists": true,
+    "size_bytes": 1141
+  },
+  {
+    "file": "docs/demo_script.md",
+    "exists": false,
+    "size_bytes": 0
+  },
+  {
+    "file": "docs/submission_checklist.md",
+    "exists": false,
+    "size_bytes": 0
+  },
+  {
+    "file": "reports/incident_report.json",
+    "exists": true,
+    "size_bytes": 35891
+  },
+  {
+    "file": "reports/incident_report.md",
+    "exists": true,
+    "size_bytes": 23737
+  }
+]

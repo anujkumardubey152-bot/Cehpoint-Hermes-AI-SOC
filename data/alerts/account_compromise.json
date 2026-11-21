@@ -1,0 +1,11 @@
+{
+    "alert_id": "CEH-SOC-0001",
+    "alert_type": "possible_account_compromise",
+    "timestamp": "2026-11-21T09:30:00Z",
+    "account": "analyst.user",
+    "source_ip": "198.51.100.42",
+    "asset": "WORKSTATION-042",
+    "failed_login_count": 50,
+    "successful_login": true,
+    "source": "synthetic_lab_dataset"
+}
